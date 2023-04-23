@@ -1,0 +1,19 @@
+--REVOKE:- It is used to take back permissions from the user.
+
+-----------------------------------------------------
+--Example 01:==>
+
+
+-- student - is a Table
+
+-- Rahul - is a User
+
+
+REVOKE delete on student from Rahul
+
+-------------------------------------------------------
+--Example 02:==>
+
+--Rahul can not View, Update or Delete the Student Column
+
+REVOKE select, update, delete on student from Rahul
