@@ -1,0 +1,27 @@
+-- GRANT:- It is used to give user access privileges to a Database.
+
+---------------------------------------------------------------
+-- student - is a Table
+
+-- Rahul - is a User
+
+-- NOTE:==> Rahul can only view this student Table (Permission given to Rahul to View the Table)
+
+--Example 01:==>
+
+GRANT select on student to Rahul
+
+---------------------------------------------------------------
+-- NOTE:==> Rahul can View and Update this student Table (Permission given to Rahul to View and Update the Table)
+
+--Example 02:==>
+
+GRANT select, update on student to Rahul
+
+
+---------------------------------------------------------------
+-- Rahul can View, Update, Delete this student Table
+
+--Example 03:==>
+
+GRANT select, update, delete on student to Rahul
